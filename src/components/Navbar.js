@@ -51,7 +51,7 @@ const Navbar = () => {
                 <a className={'link'} href={'https://github.com/ProSavage'}>Projects</a>
                 <a className={'link'} href={'https://github.com/ProSavage'}>Github</a>
                 <a className={'link'} href={'https://www.spigotmc.org/resources/authors/prosavage.203132/'}>Spigot</a>
-                <a className={'link'} href={'https://illyria.io'}>SavageLabs</a>
+                <a className={'link'} href={'https://github.com/SavageLabs'}>SavageLabs</a>
             </div>
         </NavContainer>
     )

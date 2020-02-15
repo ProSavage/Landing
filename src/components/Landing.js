@@ -71,10 +71,10 @@ const Landing = () => {
                         development to DevOps deployment.</p>
                 </div>
                 <div className={"icons"}>
-                    <Icon image={linkedin}/>
-                    <Icon image={spigotmc}/>
-                    <Icon image={instagram}/>
-                    <Icon image={github}/>
+                    <Icon image={linkedin} link={'https://www.linkedin.com/in/prosavage/'}/>
+                    <Icon image={spigotmc} link={'https://www.spigotmc.org/members/prosavage.203132/'}/>
+                    <Icon image={instagram} link={'https://www.instagram.com/thecommondenamanator/'}/>
+                    <Icon image={github} link={'https://github.com/ProSavage'}/>
                 </div>
             </div>
             <div className={'right'}>
