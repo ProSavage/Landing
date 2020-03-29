@@ -43,8 +43,12 @@ const LandingWrapper = styled.div`
         }
          
         .bio {
-          margin-top: 80px;
+          margin-bottom: 80px;
           max-width: 450px;
+        }
+        
+        a {
+          text-decoration: none;
         }
     }
     
@@ -65,10 +69,13 @@ const Landing = () => {
             <div className={'left-text'}>
                 <div className={'text'}>
                     <h1>PROSAVAGE:</h1>
-                    <p>Developer, Student, Keyboard Collector</p>
+                    <p>Developer and Student</p>
                     <p className={"bio"}>I am a 19 year old student based in Auburn University
                         with a diverse set of skills from Frontend/Systems
-                        development to DevOps deployment.</p>
+                        development to DevOps deployment.
+                    </p>
+                    <p className={"bio"}>This page just serves as a landing, take a look at my <a href={'https://github.com/ProSavage'}>Github</a> &
+                        My development org, <a href={'https://savagelabs.net'}>SavageLabs</a>.</p>
                 </div>
                 <div className={"icons"}>
                     <Icon image={linkedin} link={'https://www.linkedin.com/in/prosavage/'}/>

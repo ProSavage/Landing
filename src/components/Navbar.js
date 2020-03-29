@@ -35,6 +35,7 @@ const NavContainer = styled.div`
       color: #848282;
       font-size: 15px;
       font-weight: 500;
+      text-decoration: none;
     }
     
   }
@@ -51,7 +52,7 @@ const Navbar = () => {
                 <a className={'link'} href={'https://github.com/ProSavage'}>Projects</a>
                 <a className={'link'} href={'https://github.com/ProSavage'}>Github</a>
                 <a className={'link'} href={'https://www.spigotmc.org/resources/authors/prosavage.203132/'}>Spigot</a>
-                <a className={'link'} href={'https://github.com/SavageLabs'}>SavageLabs</a>
+                <a className={'link'} href={'https://savagelabs.net'}>SavageLabs</a>
             </div>
         </NavContainer>
     )
